@@ -1,0 +1,138 @@
+
+body{
+    margin: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 130vh;
+    background-image: url("https://i.pinimg.com/originals/02/1c/4e/021c4ec5724ec311bba97b639d0b00c0.jpg");
+}
+
+.container {
+    width: 350px;
+    height: 700px;
+    background-color: rgb(255, 255, 255);
+    padding: 60px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.login-letter{
+    color: #ff778d;
+    margin-bottom: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.image{
+    width: 45px;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-username{
+    color: rgb(0, 187, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: left;
+}
+
+.login-password{
+    color: rgb(0, 187, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    margin-top: 15px;
+}
+
+.text-s{
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    justify-content: center;
+}
+
+input{
+    outline: 0;
+    border: none;
+    margin-left: 13px;
+    font-size: 15px;
+}
+
+.botlog{
+    border-radius: 30px;
+    border: none;
+    width: 300px;
+    cursor: pointer;
+    height: 45px;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    background-image: linear-gradient(to right, rgb(0, 187, 255),#ff778d)
+}
+
+.image-user{
+    width: 20px;
+    height: 20px;
+}
+
+.button-login{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+.iconos{
+    display: flex;
+    justify-content: center;
+    margin: 12px;
+    margin-bottom: 80px;
+}
+
+.bottwi{
+    display: flex;
+    border: none;
+    cursor: pointer;
+    appearance: none;
+    background-color: inherit;
+    margin: 0;
+}
+
+
+.image:hover{
+   opacity: 0.5;
+}
+
+.rowfl{
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid rgb(163, 163, 163);
+    padding-bottom: 15px;
+}
+
+.link{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    text-decoration: none;
+}
+
+.link-c{
+    display: flex;
+    justify-content: right;
+    margin-top: 10px;
+}
+
+.sing{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.singi{
+    display: flex;
+    justify-content: center;
+}
