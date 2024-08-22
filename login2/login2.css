@@ -1,0 +1,151 @@
+body{
+    background-image: url(https://images4.alphacoders.com/117/1179686.png);
+    margin: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.image-login{
+    height: 600px;
+    width: 800px;
+}
+
+.container{
+    width: 300px;
+    height: 520px;
+    background-color: white;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.big-container{
+    display: flex;
+
+}
+
+.imagen-estudiante{
+    width: 70px;
+    margin-top: 50px;
+}
+
+.imagen-estudianteflex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-email{
+    background: url("https://img.icons8.com/?size=100&id=98957&format=png&color=EBEBEB");
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: 10px 9px;
+    width: 245px;
+    background-color: white;
+    padding: 12px 20px 12px 40px;
+    border: 1px solid #e1dfdf;
+    border-radius: 7px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input{
+    margin-bottom: 12px;
+}
+
+.icon-password{
+    background: url("https://img.icons8.com/?size=100&id=ONONoVyZoVvz&format=png&color=EBEBEB");
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: 10px 9px;
+    width: 245px;
+    background-color: white;
+    padding: 12px 20px 12px 40px;
+    border: 1px solid #e1dfdf;
+    border-radius: 7px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.icon-code{
+    background: url("https://img.icons8.com/?size=100&id=ync8dvydfmlP&format=png&color=EBEBEB");
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: 10px 9px;
+    width: 245px;
+    background-color: white;
+    padding: 12px 20px 12px 40px;
+    border: 1px solid #e1dfdf;
+    border-radius: 7px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+::placeholder{
+    font-family: Arial, Helvetica, sans-serif;
+    color: lightgray;
+    font-size: 12px;
+}
+
+.text-title{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 50px;
+    font-weight: bold;
+}
+
+.text-titleflex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.school{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    margin: 0px;
+}
+
+
+.together{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-top: 13px;
+}
+
+.button-login{
+    padding: 12px 56px 12px 56px;
+    border-radius: 50px;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 13px;
+    background-color: rgb(17, 137, 249);
+    cursor: pointer;
+}
+
+.link{
+    color: lightgrey;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.muneco{
+    display: flex;
+    margin-top: 75px;
+}
+
+.munecoflecha{
+    height: 90px;
+    
+}
+
+.munecopersona{
+    height: 85px;
+    margin-top: 25px;
+    margin-left: 30px;
+}
+
